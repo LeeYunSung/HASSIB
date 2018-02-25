@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/about_hassib"
+                android:icon="@drawable/app"
+                android:title="About Haasib" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contect Us" />
+        </menu>
+    </item>>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/rating"
+                android:title="Rate app" />
+
+        </menu>
+    </item>
+</menu>
